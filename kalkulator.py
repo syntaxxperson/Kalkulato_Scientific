@@ -39,7 +39,7 @@ def hitung():
         entri_layar.insert(tk.END, str(hasil))
     except Exception as e:
         hapus_layar()
-        entri_layar.insert(tk.END, "Tidak Valid")
+        entri_layar.insert(tk.END, "Tidak Terdefinisikan")
 
 # Inisialisasi jendela utama
 app = tk.Tk()
