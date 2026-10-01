@@ -3,7 +3,6 @@ import math
 
 # Fungsi untuk menangani input tombol
 def klik_tombol(nilai):
-    posisi_sekarang = entri_layar.get()
     entri_layar.insert(tk.END, nilai)
 
 # Fungsi untuk menghapus layar secara total (Clear)
@@ -33,17 +32,14 @@ def hitung():
             "sin": lambda x: math.sin(math.radians(x)),
             "cos": lambda x: math.cos(math.radians(x)),
             "tan": lambda x: math.tan(math.radians(x)),
-            "log": math.log10,
-            "ln": math.log,
-            "sqrt": math.sqrt,
-            "fact": math.factorial
+            "log": math.log10
         })
         
         hapus_layar()
         entri_layar.insert(tk.END, str(hasil))
     except Exception as e:
         hapus_layar()
-        entri_layar.insert(tk.END, "Error")
+        entri_layar.insert(tk.END, "Tidak Valid")
 
 # Inisialisasi jendela utama
 app = tk.Tk()
@@ -61,9 +57,9 @@ frame_tombol.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
 
 # Tata Letak Tombol (Layout Grid)
 tombol_layout = [
-    ['sin(', 'cos(', 'tan(', 'C', "("],
-    ['log(', 'ln(', '^', '⌫', ")"],
-    ['π', 'e', '', '/'],
+    ['sin(', 'cos(', 'tan(', 'C'],
+    ['log(', '^', ')', "⌫"],
+    ['π', 'e', '(', '/'],
     ['7', '8', '9', 'x'],
     ['4', '5', '6','-'],
     ['1', '2', '3', '+'],
@@ -119,7 +115,7 @@ for baris_idx, baris in enumerate(tombol_layout):
 # Mengatur agar tombol fleksibel mengikuti ukuran jendela saat di-resize
 for i in range(7):
     frame_tombol.rowconfigure(i, weight=1)
-for j in range(5):
+for j in range(4):
     frame_tombol.columnconfigure(j, weight=1)
 
 # Menjalankan aplikasi
