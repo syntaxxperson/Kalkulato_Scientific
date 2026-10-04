@@ -4,9 +4,7 @@
   <li>
     <h3>TAMPILAN UTAMA</h3>
   </li>
-  <li>
-     ![Image Alt](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/main/fungsi%20hitung%20sin.png?raw=true)
-  </li>
+![Image Alt](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/main/fungsi%20hitung%20sin.png?raw=true)
   <br><br>
   <li>
     <h3>PENJUMLAHAN DARI SIN 90</h3>
