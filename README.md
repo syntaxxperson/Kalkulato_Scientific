@@ -1,30 +1,18 @@
-<h1>KALKULATOR DESKTOP <strong>(GUI)</strong></h1>
-<h2>Untuk menyelesaikan tugas dari mata kuliah pemograman berbasis platform</h2>
-<ul>
-  <li>
-    <h3>TAMPILAN UTAMA</h3>
-  </li>
-![Image Alt](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/main/fungsi%20hitung%20sin.png?raw=true)
-  <br><br>
-  <li>
-    <h3>PENJUMLAHAN DARI SIN 90</h3>
-  </li>
-  <li>
-     ![Image Alt](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/9248f292096eec94e26919be1454998459cbaa44/fungsi%20hitung%20sin.png)
-  </li>
-  <li>
-    <br><br>
-    <h3>HASIL PENJUMLAHAN DARI SIN 90</h3>
-  </li>
-  <li>
-     ![Image Alt](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/9248f292096eec94e26919be1454998459cbaa44/hasil%20dari%20sin.png)
-  </li>
-  <br><br>
-  <li>
-    <h3>TIDAK TERDEFINISIKAN <strong>ERROR</strong></h3>
-  </li>
-  <li>
-     ![Image Alt](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/9248f292096eec94e26919be1454998459cbaa44/jika%20tidak%20bisa%20terdefinisikan.png)
-  </li>
-</ul>
+# KALKULATOR DESKTOP (GUI)
+> Projek untuk menyelesaikan tugas mata kuliah Pemrograman Berbasis Platform
 
+
+### 1. Tampilan Utama
+![Tampilan Utama](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/main/fungsi%20hitung%20sin.png?raw=true)
+
+
+### 2. Input Penjumlahan Sin(90)
+![Input Sin 90](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/main/fungsi%20hitung%20sin.png?raw=true)
+
+
+### 3. Hasil Penjumlahan Sin(90)
+![Hasil Sin 90](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/main/hasil%20dari%20sin.png?raw=true)
+
+
+### 4. Penanganan Error (Tidak Terdefinisi)
+![Tampilan Error](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/main/jika%20tidak%20bisa%20terdefinisikan.png?raw=true)
