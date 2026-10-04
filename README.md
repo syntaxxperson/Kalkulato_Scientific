@@ -5,7 +5,7 @@
     <h3>TAMPILAN UTAMA</h3>
   </li>
   <li>
-     ![Image Alt](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/9248f292096eec94e26919be1454998459cbaa44/tampilan%20utama.png)
+     ![Image Alt](https://github.com/syntaxxperson/Kalkulato_Scientific/blob/main/fungsi%20hitung%20sin.png?raw=true)
   </li>
   <br><br>
   <li>
